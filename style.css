@@ -46,14 +46,12 @@ header h1, .experience h1, .portfolio h1{
 .cv button, .experience button, .portfolio button{
     background-color: transparent;
     border: 2px solid #5E3BEE;
+    color: #5E3BEE;
 }
 .cv button:nth-of-type(1) , .experience button, .portfolio button{
     background-color: #5E3BEE;
     color: white;
     border: 2px solid #5E3BEE;
-}
-.cv button:nth-of-type(2){
-    color: #5E3BEE;
 }
 .cv button:nth-of-type(2):hover{
     background-color: #5E3BEE;
