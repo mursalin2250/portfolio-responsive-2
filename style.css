@@ -59,10 +59,10 @@ header h1, .experience h1, .portfolio h1{
 footer{
     color: white;
 }
-footer > ul > li > a{
+footer a{
     transition: .5s;
 }
-footer > ul > li > a:hover{
+footer a:hover{
     color:#e9e9e9f6;
 }
 .count-title {
@@ -163,13 +163,6 @@ footer > ul > li > a:hover{
         align-items: center;
         justify-content: center;
     }
-    .sm a{
-        transition: .5s;
-    }
-    .sm a:hover{
-        color: rgba(233, 233, 233, 0.966);
-    }
-    
 }
 
 @media (max-width: 1200px){
