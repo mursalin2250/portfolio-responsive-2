@@ -88,10 +88,6 @@ footer{
     .brief > p{
         width: 400px;
     }
-    header h1{
-        width: 700px;
-    }
-    
 }
 @media (min-width: 1200px) {
     .second-section{
