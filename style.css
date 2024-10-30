@@ -59,7 +59,12 @@ header h1, .experience h1, .portfolio h1{
 footer{
     color: white;
 }
-
+footer > ul > li > a{
+    transition: .5s;
+}
+footer > ul > li > a:hover{
+    color:#e9e9e9f6;
+}
 .count-title {
     font-size: 45px;
     font-weight: 600;
