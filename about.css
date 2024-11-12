@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header-bg{
+    background-image: url(images/bg-header.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.title{
+    color: #5E3BEE;
+}
+.nav-link{
+    font-weight: 500 !important;
+    transition: .5s !important;
+}
+
+.nav-link:hover{
+    color: #5E3BEE !important;
+}
+
+.active{
+    color: #5E3BEE !important;
+}
+
+.hire-btn{
+    color: white;
+    background-color: #5E3BEE;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+h1{
+    font-weight: 700 !important;
+    font-size:45px !important;
+}
+
+.btn-1{
+    background-color:#5E3BEE;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid #5E3BEE;
+    border-radius: 30px;
+}
+.background{
+    
+    background-image: url(images/group-ellipse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+.self-image img{
+    width: 500px;
+    max-width: 100%;
+    height: min-content;
+}
+.count-title {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.count-text {
+
+    font-weight: 500;
+    text-align: center;
+}
+.card{
+    border-radius: 20px !important;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+.card-body{
+    padding: 30px !important;
+}
+.icon{
+    background-color: #5E3BEE;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.progress{
+    border-radius: 2px !important;
+}
+
+footer p, footer a{
+    color: white;
+    transition: .5s;
+}
+.footer-nav,.footer-top{
+    justify-content:space-between;
+}
+
+footer a:hover{
+    color: rgb(180, 180, 180);
+}
+
+
+@media(min-width:561px){
+    .subtitle{
+        width: 600px;
+    }
+}
+@media (min-width: 992px) {
+    .top-section-one{
+        width: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-link:hover{
+        color: #ffff !important;
+        background-color: #5E3BEE;
+        padding-left: 20px;
+        
+    }
+    .hire-btn{
+        display: none;
+    }
+    footer, .footer-nav, .footer-top{
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .about-details{
+        align-items: center;
+        text-align: center;
+    }
+}
