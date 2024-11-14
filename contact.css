@@ -117,6 +117,11 @@ footer a:hover{
     .address i{
         display: block;
     }
+    .email, .phone, .location{
+        flex-wrap:wrap !important;
+        justify-content:center;
+        gap:5px;
+    }
 
 }
 @media(max-width:561px){
