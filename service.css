@@ -43,7 +43,7 @@ ul{
     border-radius: 30px;
 }
 .card-body{
-    max-widht:100% !important;
+    max-width:100%;
 }
 
 h1{
