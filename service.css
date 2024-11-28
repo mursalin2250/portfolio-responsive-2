@@ -63,6 +63,7 @@ h1{
 }
 .services-card > .card-body > p,.process > .card-body > p {
     width: 250px;
+    max-width: 100%;
 }
 
 footer p, footer a{
